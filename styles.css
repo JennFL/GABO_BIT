@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2624;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #594828;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+.navigator{
+    float: right;
+    margin: 24px;
+}
+.nav-menu{
+    color: white;
+}
+.nav-menu li{
+    padding-right: 40px;
+    display: inline-block; /*ayuda a controlar dónde se va a ver un elemento*/
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.img-gabrielg{
+    width: 100%;
+    height: 550px;
+}
+.text-above{
+    position: absolute;/*Position especifica cómo un elemento es posicionado en el documento. Las propiedades top, right, bottom, y left determinan la ubicación final de los elementos posicionados.*/
+    color: white;
+    top: 200px;
+    right: 10%;
+    font-size: 70px;
+}
+.g-buttons button{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 230px;
+    font-size: 20px;
+    border: #0D0500 4px solid;
+    cursor: pointer;
+}
+
+.g-awards{
+    text-align: center;
+    font-size: 22px;
+    background-color: #732002;
+    border: #0D0500 2px solid;
+    
+}
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: #0D0500 5px solid;
+    margin-top: 30px;
+    width: 800px;
+}
+.date{
+    font-size: 30px;
+    background-color: #732002;
+    padding: 9px;
+    border: #0D0500 2px solid;
+}
+.description{
+    padding: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    
+}
+.text-footer{
+    padding-top: 20px;
+}
